@@ -1,0 +1,26 @@
+2024-04-05T10:45:20+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_660fd640013b3httphadockermooocom8080wp-admin","smb_name":"PROD","redirect_url":"http:\/\/hadocker.mooo.com:8080\/wp-admin\/"}
+ ajax: no
+2024-04-05T10:45:20+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Tt-Logid: 202404051045193A345337C5920D70E3A5,202404051045193A345337C5920D70E3A5
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Server-Timing: inner; dur=106
+x-tt-trace-host: 01b47531069a95cefdf9b6100cf2aa2df6f3d603343f7cd50e37aef8dac4d7a53d4002323a486fed550990e98cd54ef3c5e714d12e09b9012565500a9a84a2edd2a0da88ec62b0521fb03fbacb26995bccb8322dd2c2204b653613cba9f822a580
+x-tt-trace-id: 00-2404051045193A345337C5920D70E3A5-596BF5426AF21EAC-00
+Server: TLB
+Content-Encoding: gzip
+Date: Fri, 05 Apr 2024 10:45:20 GMT
+Content-Length: 210
+X-Cache: TCP_MISS from a104-126-37-140.deploy.akamaitechnologies.com (AkamaiGHost/11.4.4.1-55329865) (-)
+Connection: close
+Vary: Accept-Encoding
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=5, origin; dur=286
+X-Origin-Response-Time: 286,104.126.37.140
+X-Akamai-Request-ID: 36534086
+
+{"code":0,"msg":"ok","data":{"external_data_key":"495d1b34-a40e-42cc-8077-dd60c3065af2","redirect_uri":"http:\/\/hadocker.mooo.com:8080\/wp-admin\/","app_id":"7354332289846738945","app_secret":"cfbd094745f761429a0257f7b8c46f084d13b7ae"}}
