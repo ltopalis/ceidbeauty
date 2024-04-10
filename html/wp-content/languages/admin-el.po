@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.5.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-03-29 13:25:25+0000\n"
+"PO-Revision-Date: 2024-04-09 07:06:46+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,6 +36,10 @@ msgstr "1"
 msgctxt "default GMT offset or timezone string"
 msgid "0"
 msgstr "3"
+
+#: wp-admin/about.php:234
+msgid "This release includes 110+ performance updates, with an impressive increase in speed and efficiency across the Post Editor and Site Editor. Loading is over two times faster than in 6.4, with input processing speed up to five times faster than the previous release. Translated sites see up to 25% improvement in load time for this release."
+msgstr "Αυτή η έκδοση περιλαμβάνει 110+ ενημερώσεις απόδοσης, με εντυπωσιακή αύξηση στην ταχύτητα και την αποτελεσματικότητα στο πρόγραμμα επεξεργασίας δημοσιεύσεων και στον επεξεργαστή ιστότοπου. Η φόρτωση είναι πάνω από δύο φορές ταχύτερη από ό,τι στο 6.4, με την ταχύτητα επεξεργασίας εισαγωγής έως και πέντε φορές μεγαλύτερη από την προηγούμενη έκδοση. Οι μεταφρασμένοι ιστότοποι βλέπουν έως και 25% βελτίωση στον χρόνο φόρτωσης με αυτήν την έκδοση."
 
 #: wp-admin/options-general.php:179 wp-admin/options-general.php:185
 msgid "Change Site Icon"
@@ -168,96 +172,112 @@ msgctxt "plugin"
 msgid "Install Now"
 msgstr "Εγκατάσταση τώρα"
 
-#: wp-admin/about.php:213
+#: wp-admin/credits.php:32
+msgid "Created by a worldwide team of passionate individuals"
+msgstr "Δημιουργήθηκε από μια παγκόσμια ομάδα παθιασμένων ατόμων"
+
+#: wp-admin/about.php:244
 msgid "This release includes more than 65 accessibility improvements across the platform, making it more accessible than ever. This release adds fixes to contrast settings, cursor focus, submenus, and positioning of elements, among many others, that help improve the WordPress experience for everyone."
 msgstr "Αυτή η έκδοση περιλαμβάνει περισσότερες από 65 βελτιώσεις προσβασιμότητας σε όλη την πλατφόρμα, καθιστώντας την πιο προσβάσιμη από ποτέ. Αυτή η έκδοση προσθέτει διορθώσεις στις ρυθμίσεις αντίθεσης, την εστίαση του δρομέα, τα υπομενού και την τοποθέτηση στοιχείων, μεταξύ πολλών άλλων, που συμβάλλουν στη βελτίωση της εμπειρίας WordPress για όλους."
 
-#: wp-admin/about.php:212
+#: wp-admin/about.php:243
 msgid "Accessibility improvements"
 msgstr "Βελτιώσεις προσβασιμότητας"
 
-#: wp-admin/about.php:202
+#: wp-admin/about.php:233
 msgid "Performance updates"
 msgstr "Αναβαθμίσεις απόδοσης"
 
 #. translators: %s: Requires Plugins
-#: wp-admin/about.php:182
+#: wp-admin/about.php:213
 msgid "There&#8217;s now an easier way to manage plugin dependencies. Plugin authors can supply a new %s header with a comma-separated list of required plugin slugs, presenting users with links to install and activate those plugins first."
 msgstr "Υπάρχει πλέον ένας ευκολότερος τρόπος διαχείρισης εξαρτώμενων πρόσθετων. Οι δημιουργοί πρόσθετων μπορούν να παρέχουν μια νέα κεφαλίδα %s με μια λίστα διαχωρισμένη με κόμματα των urls των απαιτούμενων πρόσθετων, δίνοντας έτσι στους χρήστες συνδέσμους για να εγκαταστήσουν και να ενεργοποιήσουν πρώτα αυτά τα πρόσθετα."
 
-#: wp-admin/about.php:177
+#: wp-admin/about.php:208
 msgid "Explore improvements to the plugin experience"
 msgstr "Εξερευνήστε βελτιώσεις στη χρήση προσθέτων"
 
-#: wp-admin/about.php:168
+#: wp-admin/about.php:199
 msgid "Give designers and creators using Classic themes access to an upgraded design experience. Opt in to support for spacing, border, typography, and color options, even without using theme.json. Once support is enabled, more tools will be automatically added as they become available."
 msgstr "Δώστε στους σχεδιαστές και τους δημιουργούς που χρησιμοποιούν κλασικά θέματα εμφάνισης πρόσβαση σε μια αναβαθμισμένη εμπειρία σχεδίασης. Επιλέξτε την υποστήριξη για επιλογές απόστασης, περιγράμματος, τυπογραφίας και χρώματος, ακόμη και χωρίς τη χρήση theme.json. Μόλις ενεργοποιηθεί η υποστήριξη, περισσότερα εργαλεία θα προστεθούν αυτόματα μόλις γίνουν διαθέσιμα."
 
-#: wp-admin/about.php:167
+#: wp-admin/about.php:198
 msgid "Add appearance tools to Classic themes"
 msgstr "Προσθήκη εργαλείων εμφάνισης σε κλασικά θέματα"
 
-#: wp-admin/about.php:154
+#: wp-admin/about.php:185
 msgid "Link core block attributes to custom fields and use the value of custom fields without creating custom blocks. Powered by the Block Bindings API, developers can extend this capability further to connect blocks to any dynamic content—even beyond custom fields. If there&#8217;s data stored elsewhere, easily point blocks to that new source with only a few lines of code."
 msgstr "Συνδέστε χαρακτηριστικά βασικά μπλοκ με προσαρμοσμένα πεδία και χρησιμοποιήστε την τιμή προσαρμοσμένων πεδίων χωρίς να δημιουργήσετε προσαρμοσμένα μπλοκ. Με την υποστήριξη του API Block Bindings, οι προγραμματιστές μπορούν να επεκτείνουν περαιτέρω αυτήν τη δυνατότητα για να συνδέσουν μπλοκ σε οποιοδήποτε δυναμικό περιεχόμενο, ακόμη και πέρα από προσαρμοσμένα πεδία. Εάν υπάρχουν δεδομένα αποθηκευμένα αλλού, υποδείξτε εύκολα μπλοκ σε αυτήν τη νέα πηγή με λίγες μόνο γραμμές κώδικα."
 
-#: wp-admin/about.php:153
+#: wp-admin/about.php:184
 msgid "Connect blocks to custom fields or other dynamic content"
 msgstr "Σύνδεση μπλοκ με προσαρμοσμένα πεδία ή άλλο δυναμικό περιεχόμενο"
 
-#: wp-admin/about.php:143
+#: wp-admin/about.php:174
 msgid "Bring interactions to blocks with the Interactivity API"
 msgstr "Φέρτε αλληλεπιδράσεις στα μπλοκ με το API αλληλεπίδρασης"
 
-#: wp-admin/about.php:128
+#: wp-admin/about.php:160
+msgid "Create and manage links easily with a more intuitive link-building experience, like a streamlined UI and a shortcut for copying links."
+msgstr "Δημιουργήστε και διαχειριστείτε συνδέσμους εύκολα με μια πιο διαισθητική εμπειρία δημιουργίας συνδέσμων, όπως μια βελτιωμένη διεπαφή χρήστη και μια συντόμευση για την αντιγραφή συνδέσμων."
+
+#: wp-admin/about.php:159
 msgid "Improved link controls"
 msgstr "Βελτιωμένα εία ελέγχου συνδέσεων"
 
-#: wp-admin/about.php:122
+#: wp-admin/about.php:153
 msgid "Feel the difference when you move things around, with helpful visual cues like displaced items in List View or frictionless dragging to anywhere in your workspace—from beginning to end."
 msgstr "Νιώστε τη διαφορά όταν μετακινείτε πράγματα, με χρήσιμες οπτικές ενδείξεις, όπως μετατοπισμένα στοιχεία σε προβολή λίστας ή μεταφορά χωρίς τριβές σε οποιοδήποτε σημείο του χώρου εργασίας σας, από την αρχή μέχρι το τέλος."
 
-#: wp-admin/about.php:121
+#: wp-admin/about.php:152
 msgid "Smoother drag-and-drop"
 msgstr "Ομαλότερη μεταφορά και απόθεση"
 
-#: wp-admin/about.php:114
+#: wp-admin/about.php:145
 msgid "Discover new Data Views"
 msgstr "Ανακαλύψτε νέες προβολές δεδομένων"
 
-#: wp-admin/about.php:104
+#: wp-admin/about.php:136
+msgid "With shadow supports enabled, you can create layouts with visual depth or add a little personality to your design."
+msgstr "Με ενεργοποιημένες τις υποστηρίξεις σκιών, μπορείτε να δημιουργήσετε διατάξεις με οπτικό βάθος ή να προσθέσετε λίγη προσωπικότητα στο σχεδιασμό σας."
+
+#: wp-admin/about.php:135
 msgid "Add box shadow supports to even more blocks"
 msgstr "Προσθήκη υποστηρίξεων σκιάς πλαισίου σε ακόμα περισσότερα μπλοκ"
 
-#: wp-admin/about.php:98
+#: wp-admin/about.php:129
 msgid "Set aspect ratios for Cover block images and easily add color overlays that automatically source color from your chosen image."
 msgstr "Ορίστε αναλογίες διαστάσεων για μπλοκ Εικόνων εξωφύλλου και προσθέστε εύκολα έγχρωμες επικαλύψεις που προέρχονται αυτόματα από το χρώμα που έχετε επιλέξει."
 
-#: wp-admin/about.php:97
+#: wp-admin/about.php:128
 msgid "Get more control over images in Cover blocks"
 msgstr "Αποκτήστε περισσότερο έλεγχο στις εικόνες στα μπλοκ εξωφύλλου"
 
-#: wp-admin/about.php:90
+#: wp-admin/about.php:122
+msgid "Control size, repeat, and focal point options so you can play around with subtle or splashy ways to add visual interest to layouts."
+msgstr "Ελέγξτε τις επιλογές μεγέθους, επανάληψης και εστιακού σημείου, ώστε να μπορείτε να παίζετε με λεπτούς ή εντυπωσιακούς τρόπους για να προσθέσετε εντυπωσιακές οπτικές στις διατάξεις."
+
+#: wp-admin/about.php:121
 msgid "Do more with background images in Group blocks"
 msgstr "Κάντε περισσότερα με εικόνες φόντου σε μπλοκ ομάδων"
 
-#: wp-admin/about.php:76
+#: wp-admin/about.php:107
 msgid "Work through creative projects with a more comprehensive picture of what&#8217;s been done—and what you can fall back on. Get details like time stamps, quick summaries, and a paginated list of total revisions. View revisions from the Style Book to see changes outside of what you&#8217;re working on. Revisions are also now available for templates and template parts."
 msgstr "Εργαστείτε σε δημιουργικά έργα με μια πιο ολοκληρωμένη εικόνα του τι έχει γίνει και σε τι μπορείτε να στηριχθείτε. Λάβετε λεπτομέρειες, όπως χρονικές σημάνσεις, γρήγορες περιλήψεις και μια σελιδοποιημένη λίστα συνολικών αναθεωρήσεων. Προβάλετε αναθεωρήσεις από το Style Book για να δείτε αλλαγές εκτός αυτού στο οποίο εργάζεστε. Οι αναθεωρήσεις είναι επίσης τώρα διαθέσιμες για πρότυπα και τμήματα προτύπων."
 
-#: wp-admin/about.php:75
+#: wp-admin/about.php:106
 msgid "Get more details from your style revisions"
 msgstr "Δείτε περισσότερες λεπτομέρειες από τις αναθεωρήσεις στυλ σας"
 
-#: wp-admin/about.php:69
+#: wp-admin/about.php:100
 msgid "The new Font Library puts you in control of an essential piece of your site&#8217;s design—typography—without coding or extra steps. Effortlessly install, remove, and activate local and Google Fonts across your site for any block theme. The ability to include custom typography collections gives site creators and publishers even more choice."
 msgstr "Η νέα βιβλιοθήκη γραμματοσειρών σάς δίνει τον έλεγχο ενός βασικού τμήματος της σχεδίασης του ιστότοπού σας—της τυπογραφίας—δίχως να απαιτούνται γνώσεις προγραμματισμού ή επιπλέον βήματα. Εγκαταστήστε, καταργήστε και ενεργοποιήστε εύκολα τοπικές γραμματοσειρές και γραμματοσειρές Google στον ιστότοπό σας, ανεξάρτητα από το ενεργό θέμα σας. Η δυνατότητα συμπερίληψης προσαρμοσμένων συλλογών τυπογραφίας δίνει στους δημιουργούς ιστότοπων και στους εκδότες ακόμη περισσότερες επιλογές."
 
-#: wp-admin/about.php:68
+#: wp-admin/about.php:99
 msgid "Add and manage fonts across your site"
 msgstr "Προσθήκη και διαχείριση γραμματοσειρών στον ιστότοπό σας"
 
-#: wp-admin/about.php:56
+#: wp-admin/about.php:87
 msgid "Take your site-building experience further with WordPress 6.5. Explore more avenues to make it your own, with new features and enhancements that will help fine-tune your creative work. Discover the latest additions to the developer experience, with fresh foundational tools poised to transform the future of blocks."
 msgstr "Προχωρήστε περαιτέρω την εμπειρία δημιουργίας ιστότοπων με το WordPress 6.5. Εξερευνήστε περισσότερες τρόπους για να το προσαρμόσετε στις απαιτήσεις σας, με νέες δυνατότητες και βελτιώσεις που θα σας βοηθήσουν να τελειοποιήσετε το δημιουργικό σας έργο. Ανακαλύψτε τις τελευταίες προσθήκες στην εμπειρία προγραμματιστή, με νέα θεμελιώδη εργαλεία έτοιμα να μεταμορφώσουν το μέλλον των blocks."
 
@@ -330,12 +350,12 @@ msgid "When using Bulk Edit, you can change the metadata (categories, author, et
 msgstr "Όταν χρησιμοποιείτε τη Μαζική επεξεργασία, μπορείτε να αλλάξετε τα μεταδεδομένα (κατηγορίες, συντάκτης κλπ.) για όλα τα επιλεγμένα άρθρα διά μιας. Για να αφαιρέσετε ένα άρθρο από την ομάδα, απλά πατήστε στο %s<span class=\"screen-reader-text\">remove</span> δίπλα στον τίτλο του στην περιοχή Μαζική επεξεργασία που εμφανίζεται."
 
 #. translators: 1: WordPress Release Notes link, 2: WordPress version number.
-#: wp-admin/about.php:277
+#: wp-admin/about.php:308
 msgid "<a href=\"%1$s\">Read the WordPress %2$s Release Notes</a> for information on installation, enhancements, fixed issues, release contributors, learning resources, and the list of file changes."
 msgstr "<a href=\"%1$s\">Διαβάστε τις σημειώσεις έκδοσης WordPress %2$s</a> για πληροφορίες σχετικά με την εγκατάσταση, τις βελτιώσεις, τις διορθώσεις, τους συνεισφέροντες, το εκπαιδευτικό υλικό, και την λίστα με τις αλλαγές αρχείων."
 
 #. translators: 1: WordPress Field Guide link, 2: WordPress version number.
-#: wp-admin/about.php:258
+#: wp-admin/about.php:289
 msgid "Explore the <a href=\"%1$s\">WordPress %2$s Field Guide</a>. Learn about the changes in this release with detailed developer notes to help you build with WordPress."
 msgstr "Εξερευνήστε τον <a href=\"%1$s\">Οδηγό Πεδίου WordPress %2$s</a>. Μάθετε για τις αλλαγές σε αυτή την έκδοση με εκτενής πληροφορίες για προγραμματιστές για να σας βοηθήσουν να δημιουργήσετε με το WordPress."
 
@@ -354,6 +374,11 @@ msgstr "Η έκδοση PHP στον διακομιστή σας είναι %1$s
 #: wp-admin/includes/class-plugin-upgrader.php:355
 msgid "Your WordPress version is %1$s, however the new plugin version requires %2$s."
 msgstr "Η έκδοση του WordPress σας είναι %1$s, ωστόσο η νέα έκδοση του πρόσθετου απαιτεί %2$s."
+
+#. translators: %s: WordPress version.
+#: wp-admin/about.php:66
+msgid "https://wordpress.org/support/wordpress-version/version-%s/"
+msgstr "https://wordpress.org/support/wordpress-version/version-%s/"
 
 #: wp-admin/contribute.php:103 wp-admin/credits.php:57 wp-admin/credits.php:65
 msgid "https://make.wordpress.org/contribute/"
@@ -820,7 +845,7 @@ msgid "Be the future of WordPress"
 msgstr "Γίνε το μέλλον του WordPress"
 
 #. translators: 1: Learn WordPress link, 2: Workshops link.
-#: wp-admin/about.php:237
+#: wp-admin/about.php:268
 msgid "<a href=\"%1$s\">Learn WordPress</a> is a free resource for new and experienced WordPress users. Learn is stocked with how-to videos on using various features in WordPress, <a href=\"%2$s\">interactive workshops</a> for exploring topics in-depth, and lesson plans for diving deep into specific areas of WordPress."
 msgstr "Το <a href=\"%1$s\">μάθετε WordPress</a> είναι ένας δωρεάν πόρος για νέους και έμπειρους χρήστες του WordPress. Το μάθημα είναι εφοδιασμένο με βίντεο οδηγούς για τη χρήση διαφόρων λειτουργιών του WordPress, <a href=\"%2$s\">διαδραστικά εργαστήρια</a> για τη διερεύνηση θεμάτων σε βάθος, και σχέδια μαθημάτων για εμβάθυνση σε συγκεκριμένους τομείς του WordPress."
 
@@ -972,12 +997,12 @@ msgid "<a href=\"https://wordpress.org/documentation/article/customizer/\">Docum
 msgstr "<a href=\"https://wordpress.org/documentation/article/customizer/\">Τεκμηρίωση για τον Προσαρμογέα</a>"
 
 #. translators: The localized WordPress download URL.
-#: wp-admin/about.php:363
+#: wp-admin/about.php:394
 msgid "https://wordpress.org/download/"
 msgstr "https://wordpress.org/download/"
 
 #. translators: %s: The major version of WordPress for this branch.
-#: wp-admin/about.php:360
+#: wp-admin/about.php:391
 msgid "This is the final release of WordPress %s"
 msgstr "Αυτή είναι η τελική έκδοση του WordPress %s"
 
@@ -1313,21 +1338,21 @@ msgid "Reach out to WordPress Core developers to ensure you'll never have this p
 msgstr "Απευθυνθείτε στους προγραμματιστές του WordPress Core για να βεβαιωθείτε ότι δεν θα αντιμετωπίσετε ποτέ ξανά αυτό το πρόβλημα."
 
 #. translators: 1: WordPress version number, 2: Link to update WordPress
-#: wp-admin/about.php:357
+#: wp-admin/about.php:388
 msgid "Important! Your version of WordPress (%1$s) will stop receiving security updates in the near future. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "Σημαντικό! Η έκδοση WordPress (%1$s) που έχετε θα σταματήσει να λαμβάνει ενημερώσεις ασφαλείας στο κοντινό μέλλον. Για να διατηρήσετε τον ιστότοπό σας ασφαλή, παρακαλούμε <a href=\"%2$s\">ενημερώστε στην τελευταία έκδοση του WordPress</a>."
 
 #. translators: 1: WordPress version number, 2: Link to update WordPress
-#: wp-admin/about.php:354
+#: wp-admin/about.php:385
 msgid "Important! Your version of WordPress (%1$s) is no longer supported, you will not receive any security updates for your website. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "Σημαντικό! Η έκδοση WordPress (%1$s) που έχετε δεν υποστηρίζεται πλέον και δεν θα λαμβάνετε ενημερώσεις ασφαλείας για τον ιστότοπό σας. Για να διατηρήσετε τον ιστότοπό σας ασφαλή, παρακαλούμε <a href=\"%2$s\">ενημερώστε στην τελευταία έκδοση του WordPress</a>."
 
-#: wp-admin/about.php:259
+#: wp-admin/about.php:290
 msgid "https://make.wordpress.org/core/wordpress-6-5-field-guide/"
 msgstr "https://make.wordpress.org/core/wordpress-6-5-field-guide/"
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:228
+#: wp-admin/about.php:259
 msgid "Learn more about WordPress %s"
 msgstr "Μάθετε περισσότερα για το WordPress %s"
 
@@ -2249,7 +2274,7 @@ msgstr "Προσθήκη νέου συνθηματικού εφαρμογής"
 msgid "Required to create an Application Password, but not to update the user."
 msgstr "Απαιτείται για να δημιουργήσετε συνθηματικό εφαρμογής, όχι για να ενημερώσετε τον χρήστη."
 
-#: wp-admin/about.php:298
+#: wp-admin/about.php:329
 msgid "Go to Updates"
 msgstr "Πηγαίνετε στις ενημερώσεις"
 
@@ -5504,7 +5529,7 @@ msgstr "Αυτό το πρόσθετο δεν είναι συμβατό με τ�
 
 #. translators: %s: WordPress version number.
 #. translators: %s: WordPress version.
-#: wp-admin/about.php:280 wp-admin/includes/update.php:323
+#: wp-admin/about.php:311 wp-admin/includes/update.php:323
 #: wp-admin/index.php:119 wp-admin/install.php:249 wp-admin/update-core.php:94
 #: wp-admin/upgrade.php:81
 msgid "https://wordpress.org/documentation/wordpress-version/version-%s/"
@@ -6790,7 +6815,7 @@ msgstr "Οι προγραμματισμένες αλλαγές δημοσιεύ�
 #: wp-admin/js/updates.js:1806
 msgctxt "theme"
 msgid "Activate"
-msgstr "Ενεργοποίηση του %s"
+msgstr "Ενεργοποίηση"
 
 #: wp-admin/options-discussion.php:60
 msgid "Allow link notifications from other blogs (pingbacks and trackbacks) on new posts"
@@ -7852,7 +7877,7 @@ msgid "(Currently set to: %s)"
 msgstr "(Έχει οριστεί σε:%s)"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:328
+#: wp-admin/about.php:359
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>Η έκδοση %s</strong> διευθέτησε ένα θέμα ασφαλείας."
 
@@ -7864,15 +7889,15 @@ msgstr "https://en.gravatar.com/"
 msgid "Profile Picture"
 msgstr "Εικόνα προφίλ"
 
-#: wp-admin/about.php:325
+#: wp-admin/about.php:356
 msgid "Maintenance and Security Releases"
 msgstr "Εκδόσεις συντήρησης και ασφάλειας"
 
-#: wp-admin/about.php:322
+#: wp-admin/about.php:353
 msgid "Security Releases"
 msgstr "Εκδόσεις Ασφαλείας"
 
-#: wp-admin/about.php:319
+#: wp-admin/about.php:350
 msgid "Maintenance Releases"
 msgstr "Έκδοση Συντήρησης"
 
@@ -11225,48 +11250,50 @@ msgstr "Συμπληρώστε την email διεύθυνση ενός μέλο
 msgid "Show Toolbar when viewing site"
 msgstr "Προβολή και στη δημόσια όψη"
 
+#. translators: %s: HelpHub URL.
 #. translators: %s: Documentation URL.
-#: wp-admin/about.php:351
+#: wp-admin/about.php:63 wp-admin/about.php:382
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "Για περισσότερα δείτε το <a href=\"%s\">σχετικό σημείωμα</a>."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:345
+#: wp-admin/about.php:376
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "Η <strong>έκδοση %1$s</strong> αντιμετωπίζει ορισμένα θέματα ασφαλείας και επιλύει %2$s πρόβλημα."
 msgstr[1] "Η <strong>έκδοση %1$s</strong> αντιμετωπίζει ορισμένα θέματα ασφαλείας και επιλύει %2$s προβλήματα."
 
+#. translators: 1: WordPress version number, 2: Plural number of bugs.
 #. translators: 1: WordPress version number, 2: Plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:339
+#: wp-admin/about.php:51 wp-admin/about.php:370
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "Η <strong>έκδοση %1$s</strong> αντιμετωπίζει ένα θέμα ασφαλείας και επιλύει %2$s πρόβλημα."
 msgstr[1] "Η <strong>έκδοση %1$s</strong> αντιμετωπίζει ένα θέμα ασφαλείας και επιλύει %2$s προβλήματα."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs.
-#: wp-admin/about.php:333
+#: wp-admin/about.php:364
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "H <strong>έκδοση %1$s</strong> επιλύει %2$s πρόβλημα."
 msgstr[1] "H <strong>έκδοση %1$s</strong> επιλύει %2$s προβλήματα."
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:330
+#: wp-admin/about.php:361
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "H <strong>έκδοση %s</strong> αφορά μερικά θέματα ασφαλείας."
 
-#: wp-admin/about.php:324
+#: wp-admin/about.php:46 wp-admin/about.php:355
 msgid "Maintenance and Security Release"
 msgstr "Έκδοση ασφαλείας και διορθώσεων"
 
-#: wp-admin/about.php:321
+#: wp-admin/about.php:352
 msgid "Security Release"
 msgstr "Έκδοση ασφαλείας"
 
-#: wp-admin/about.php:318
+#: wp-admin/about.php:349
 msgid "Maintenance Release"
 msgstr "Αναβάθμιση επιδιορθώσεων"
 
@@ -11540,15 +11567,15 @@ msgid "Because this is a multisite installation, you may add accounts that alrea
 msgstr "Μιας και αυτή είναι μια εγκατάσταση πολλαπλών ιστοτόπων μπορείτε να προσθέσετε λογαριασμούς που ήδη υπάρχουν στο Δίκτυο δίνοντας ένα όνομα χρήστη ή ένα email και ορίζοντας ένα ρόλο. Για περισσότερες επιλογές, όπως το να ορίσετε ένα συνθηματικό χρήστη, θα πρέπει να είστε Διαχειριστής Δικτύου και να χρησιμοποιήσετε το σύνδεσμο Επεξεργασία που εμφανίζετε κάτω από το όνομα ενός χρήστη στο μενού Διαχειριστής Δικτύου &gt; Όλοι οι Χρήστες, ώστε να επεξεργαστείτε το προφίλ του."
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:50
+#: wp-admin/about.php:81
 msgid "Welcome to WordPress %s"
 msgstr "Καλώς ήρθατε στο WordPress %s"
 
-#: wp-admin/about.php:305
+#: wp-admin/about.php:336
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Επιστροφή στον Πίνακα ελέγχου"
 
-#: wp-admin/about.php:298
+#: wp-admin/about.php:329
 msgid "Go to Dashboard &rarr; Updates"
 msgstr "Επιστροφή στη διαχείριση ενημερώσεων"
 
@@ -13281,7 +13308,7 @@ msgstr "Ενημερώσεις WordPress"
 msgid "Edit menu item"
 msgstr "Επεξεργασία στοιχείου μενού"
 
-#: wp-admin/about.php:305 wp-admin/includes/network.php:166
+#: wp-admin/about.php:336 wp-admin/includes/network.php:166
 msgid "Go to Dashboard"
 msgstr "Επιστροφή στον Πίνακα Ελέγχου"
 
@@ -14314,6 +14341,10 @@ msgstr "Προφίλ"
 #: wp-admin/menu.php:96
 msgid "Comments %s"
 msgstr "Σχόλια %s"
+
+#: wp-admin/menu.php:67
+msgid "Library"
+msgstr "Βιβλιοθήκη"
 
 #: wp-admin/media-new.php:43
 msgid "Upload New Media"
