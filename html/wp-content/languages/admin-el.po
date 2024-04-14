@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.5.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-04-09 07:06:46+0000\n"
+"PO-Revision-Date: 2024-04-10 15:46:47+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -41,6 +41,10 @@ msgstr "3"
 msgid "This release includes 110+ performance updates, with an impressive increase in speed and efficiency across the Post Editor and Site Editor. Loading is over two times faster than in 6.4, with input processing speed up to five times faster than the previous release. Translated sites see up to 25% improvement in load time for this release."
 msgstr "Αυτή η έκδοση περιλαμβάνει 110+ ενημερώσεις απόδοσης, με εντυπωσιακή αύξηση στην ταχύτητα και την αποτελεσματικότητα στο πρόγραμμα επεξεργασίας δημοσιεύσεων και στον επεξεργαστή ιστότοπου. Η φόρτωση είναι πάνω από δύο φορές ταχύτερη από ό,τι στο 6.4, με την ταχύτητα επεξεργασίας εισαγωγής έως και πέντε φορές μεγαλύτερη από την προηγούμενη έκδοση. Οι μεταφρασμένοι ιστότοποι βλέπουν έως και 25% βελτίωση στον χρόνο φόρτωσης με αυτήν την έκδοση."
 
+#: wp-admin/about.php:146
+msgid "Find and organize your data however you like with data views for pages, templates, patterns, and template parts. Arrange it in a table or grid view with the option to toggle fields and make bulk changes."
+msgstr "Βρείτε και οργανώστε τα δεδομένα σας όπως θέλετε με προβολές δεδομένων για σελίδες, πρότυπα, μοτίβα και τμήματα προτύπων. Τακτοποιήστε το σε προβολή πίνακα ή πλέγματος με την επιλογή εναλλαγής πεδίων και πραγματοποίησης μαζικών αλλαγών."
+
 #: wp-admin/options-general.php:179 wp-admin/options-general.php:185
 msgid "Change Site Icon"
 msgstr "Αλλαγή εικονιδίου ιστότοπου"
@@ -63,7 +67,7 @@ msgstr "Αναβάθμιση τώρα"
 #: wp-admin/includes/theme-install.php:207
 msgctxt "theme"
 msgid "Install Now"
-msgstr "Εγκατάσταση Τώρα"
+msgstr "Εγκατάσταση τώρα"
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:1584
 msgid "This plugin cannot be activated because required plugins are missing or inactive."
@@ -76,7 +80,7 @@ msgstr "Αυτό το πρόσθετο είναι ενεργό, αλλά ενδ�
 #. translators: %s: List of dependency names.
 #: wp-admin/includes/class-wp-plugins-list-table.php:1574
 msgid "<strong>Requires:</strong> %s"
-msgstr "<strong>Απαιτεί:</strong> %s"
+msgstr "<strong>Απαιτείται:</strong> %s"
 
 #. translators: %s: List of dependencies.
 #: wp-admin/includes/class-wp-plugins-list-table.php:1540
@@ -155,7 +159,7 @@ msgstr "Η έκδοση του WordPress σας είναι %1$s, ωστόσο η
 #: wp-admin/includes/plugin-install.php:1045 wp-admin/js/updates.js:960
 msgctxt "plugin"
 msgid "Network Activate"
-msgstr "Ενεργοποίση στο δίκτυο"
+msgstr "Ενεργοποίση δικτύου"
 
 #. translators: %s: Plugin name.
 #: wp-admin/includes/ajax-actions.php:4579
@@ -212,6 +216,10 @@ msgstr "Συνδέστε χαρακτηριστικά βασικά μπλοκ μ
 #: wp-admin/about.php:184
 msgid "Connect blocks to custom fields or other dynamic content"
 msgstr "Σύνδεση μπλοκ με προσαρμοσμένα πεδία ή άλλο δυναμικό περιεχόμενο"
+
+#: wp-admin/about.php:175
+msgid "The Interactivity API offers developers a standardized method for building interactive front-end experiences with blocks. It simplifies the process, with fewer dependencies on external tooling, while maintaining optimal performance. Use it to create memorable user experiences, like fetching search results instantly or letting visitors interact with content in real time."
+msgstr "Το Interactivity API προσφέρει στους προγραμματιστές μια τυποποιημένη μέθοδο για τη δημιουργία διαδραστικών εμπειριών front-end με μπλοκ. Απλοποιεί τη διαδικασία, με λιγότερες εξαρτήσεις από εξωτερικά εργαλεία, διατηρώντας παράλληλα τη βέλτιστη απόδοση. Χρησιμοποιήστε το για να δημιουργήσετε αξέχαστες εμπειρίες χρήστη, όπως η άμεση λήψη αποτελεσμάτων αναζήτησης ή η αλληλεπίδραση των επισκεπτών με το περιεχόμενο σε πραγματικό χρόνο."
 
 #: wp-admin/about.php:174
 msgid "Bring interactions to blocks with the Interactivity API"
@@ -288,7 +296,7 @@ msgstr "Επιτρέπεται η μεταφόρτωση μόνο αρχείων
 #. translators: %s: Link to activate the Classic Widgets plugin.
 #: wp-admin/widgets-form-blocks.php:87
 msgid "The block widgets require JavaScript. Please enable JavaScript in your browser settings, or activate the <a href=\"%s\">Classic Widgets plugin</a>."
-msgstr "Οι μικροεφαρμογές μπλοκ απαιτούν JavaScript. Παρακαλούμε ενεργοποιήστε τη JavaScript στις ρυθμίσεις του φυλλομετρητή ιστού  σας, ή δοκιμάστε το <a href=\"%s\">πρόσθετο Classic Widgets</a>"
+msgstr "Οι μικροεφαρμογές μπλοκ απαιτούν JavaScript. Παρακαλούμε ενεργοποιήστε τη JavaScript στις ρυθμίσεις του πλοηγού σας, ή δοκιμάστε το <a href=\"%s\">πρόσθετο Classic Widgets</a>"
 
 #. translators: %s: Link to install the Classic Editor plugin.
 #: wp-admin/edit-form-blocks.php:338
@@ -298,7 +306,7 @@ msgstr "Ο διορθωτής μπλοκ απαιτεί JavαScript. Παρακ�
 #. translators: %s: Link to activate the Classic Editor plugin.
 #: wp-admin/edit-form-blocks.php:329
 msgid "The block editor requires JavaScript. Please enable JavaScript in your browser settings, or activate the <a href=\"%s\">Classic Editor plugin</a>."
-msgstr "Ο επεξεργαστής μπλοκ απαιτεί JavaScript. Ενεργοποιήστε τη JavaScript στις ρυθμίσεις του προγράμματος περιήγησής σας ή ενεργοποιήστε το <a href=\"%s\">Πρόσθετο Classic Editor</a>."
+msgstr "Ο επεξεργαστής μπλοκ απαιτεί JavaScript. Ενεργοποιήστε τη JavaScript στις ρυθμίσεις του πλοηγού σας ή ενεργοποιήστε το <a href=\"%s\">Πρόσθετο Classic Editor</a>."
 
 #: wp-admin/my-sites.php:81 wp-admin/network/menu.php:53
 #: wp-admin/network/site-new.php:182 wp-admin/network/site-new.php:192
@@ -450,7 +458,7 @@ msgstr "οριζόντια θέση εκκίνησης"
 
 #: wp-admin/includes/image-edit.php:250
 msgid "Starting Coordinates:"
-msgstr "Συντεταγμένες Εκκίνησης:"
+msgstr "Συντεταγμένες έναρξης:"
 
 #: wp-admin/includes/image-edit.php:193
 msgid "Crop Image"

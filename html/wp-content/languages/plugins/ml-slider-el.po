@@ -1,0 +1,585 @@
+# Translation of Plugins - Slider, Gallery, and Carousel by MetaSlider &#8211; Responsive WordPress Slideshows - Stable (latest release) in Greek
+# This file is distributed under the same license as the Plugins - Slider, Gallery, and Carousel by MetaSlider &#8211; Responsive WordPress Slideshows - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-10-15 10:28:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: el_GR\n"
+"Project-Id-Version: Plugins - Slider, Gallery, and Carousel by MetaSlider &#8211; Responsive WordPress Slideshows - Stable (latest release)\n"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:615
+#: admin/views/pages/parts/slider-settings-legacy.php:635
+#: admin/views/pages/parts/slider-settings-legacy.php:764
+#: admin/views/pages/parts/slider-settings-legacy.php:796
+#: admin/views/pages/parts/slider-settings.php:544
+#: admin/views/pages/parts/slider-settings.php:564
+msgctxt "Short for milliseconds"
+msgid "ms"
+msgstr "ms"
+
+#: admin/slideshows/Themes.php:60
+msgid "No themes found."
+msgstr "Δεν βρέθηκαν Θέματα."
+
+#: inc/slide/metaslide.image.class.php:527
+msgid "Schedule"
+msgstr "Προγραμματισμός"
+
+#: admin/views/notices/header-notice.php:21
+msgid "Dismiss"
+msgstr "Απόρριψη"
+
+#: admin/Pages.php:124 admin/assets/dist/js/app.js:2
+#: admin/assets/js/app/globals.js:105
+msgid "Success"
+msgstr "Επιτυχία"
+
+#: admin/Table.php:83 admin/Table.php:323 inc/slide/metaslide.class.php:416
+msgid "Delete Permanently"
+msgstr "Οριστική διαγραφή"
+
+#: ml-slider.php:2294
+msgid "Leave a review"
+msgstr "Αφήστε μια κριτική"
+
+#: admin/slideshows/Settings.php:59
+msgid "New Slideshow"
+msgstr "Νέο Slideshow"
+
+#: ml-slider.php:2275
+msgid "Premium Support"
+msgstr "Επαγγελματική υποστήριξη"
+
+#: admin/views/pages/upgrade.php:134
+msgid "Premium support"
+msgstr "Επαγγελματική υποστήριξη"
+
+#: admin/slideshows/Settings.php:83 inc/slider/metaslider.class.php:120
+msgid "Previous"
+msgstr "Προηγούμενο"
+
+#: admin/Table.php:82 admin/Table.php:322 inc/slide/metaslide.class.php:406
+msgid "Restore"
+msgstr "Αποκατάσταση"
+
+#: ml-slider.php:2285
+msgid "Support"
+msgstr "Yποστήριξη"
+
+#: admin/views/pages/upgrade.php:54
+msgid "Thumbnail navigation"
+msgstr "Πλοήγηση στις μικρογραφίες"
+
+#: admin/Table.php:59 admin/Table.php:87 admin/Table.php:337
+msgid "Trash"
+msgstr "Διεγραμμένα"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:181
+msgid "Thumbnail"
+msgstr "Μικρογραφία"
+
+#: admin/views/pages/upgrade.php:25 admin/views/pages/upgrade.php:144
+msgid "Installed"
+msgstr "Εγκαταστάθηκε"
+
+#: admin/views/notices/header-notice.php:8
+msgid "Logo"
+msgstr "Λογότυπο"
+
+#: admin/slideshows/Settings.php:84 inc/slider/metaslider.class.php:121
+msgid "Next"
+msgstr "Επόμενο"
+
+#: admin/Notices.php:344
+msgid "Read more"
+msgstr "Διάβασε περισσότερα"
+
+#: admin/Pages.php:121
+msgid "Undo"
+msgstr "Αναίρεση"
+
+#: admin/Notices.php:317
+msgid "weeks"
+msgstr "εβδομάδες"
+
+#: ml-slider.php:698
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: ml-slider.php:699
+msgid "YouTube"
+msgstr "YouTube"
+
+#: ml-slider.php:700
+msgid "Layer Slide"
+msgstr "Διαφάνεια (Slide) Επιπέδου"
+
+#: ml-slider.php:697
+msgid "Post Feed"
+msgstr "Τροφοδοσία Άρθρων"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:774
+msgid "Opacity"
+msgstr "Αδιαφάνεια"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:790
+msgid "Caption speed"
+msgstr "Ταχύτητα λεζάντας"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:792
+msgid "Set the fade in speed of the caption"
+msgstr "Ορίστε την ταχύτητα fade in της λεζάντας"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:811
+#: admin/views/pages/parts/slider-settings.php:618
+msgid "CSS classes"
+msgstr "Κλάσεις CSS"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:824
+#: admin/views/pages/parts/slider-settings.php:631
+msgid "Print CSS"
+msgstr "CSS Εκτύπωσης"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:837
+#: admin/views/pages/parts/slider-settings.php:644
+msgid "Print JS"
+msgstr "JS Εκτύπωσης"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:850
+#: admin/views/pages/parts/slider-settings.php:657
+msgid "No conflict mode"
+msgstr "Απρόσκοπτη λειτουργία"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:855
+#: admin/views/pages/parts/slider-settings.php:662
+msgid "Delay adding the flexslider class to the slideshow"
+msgstr "Καθυστέρηση προσθήκης της κλάσης flexslider στην παρουσίαση"
+
+#: admin/Table.php:72 admin/views/pages/parts/slider-settings-legacy.php:876
+#: admin/views/pages/parts/slider-settings.php:677
+msgid "Shortcode"
+msgstr "Κώδικας συντόμευσης"
+
+#: ml-slider.php:1925
+msgid "Choose slideshow"
+msgstr "Επιλογή παρουσίασης"
+
+#: ml-slider.php:1935
+msgid "Insert slideshow"
+msgstr "Εισαγωγή παρουσίασης"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: ml-slider.php
+msgid "https://www.metaslider.com"
+msgstr "https://www.metaslider.com"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:30
+#: admin/views/pages/parts/slider-settings-legacy.php:664
+#: admin/views/pages/parts/slider-settings.php:34
+msgid "Width"
+msgstr "Πλάτος"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:43
+#: admin/views/pages/parts/slider-settings-legacy.php:680
+#: admin/views/pages/parts/slider-settings.php:47
+msgid "Height"
+msgstr "Ύψος"
+
+#: admin/views/pages/parts/toolbar.php:114 admin/assets/dist/js/app.js:2
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: admin/views/pages/settings.php:42
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: admin/Table.php:70 admin/assets/dist/js/app.js:2
+msgid "Title"
+msgstr "Τίτλος"
+
+#: ml-slider.php:656
+msgid "Image"
+msgstr "Εικόνα"
+
+#: admin/Pages.php:118 admin/assets/dist/js/app.js:2
+msgid "Caption"
+msgstr "Λεζάντα"
+
+#: admin/views/slides/tabs/crop.php:17
+msgid "Bottom Center"
+msgstr "Κάτω Κέντρο"
+
+#: admin/views/slides/tabs/crop.php:18
+msgid "Bottom Right"
+msgstr "Κάτω Δεξιά"
+
+#: admin/views/slides/tabs/crop.php:16
+msgid "Bottom Left"
+msgstr "Κάτω Αριστερά"
+
+#: inc/metaslider.widget.class.php:112
+msgid "Title:"
+msgstr "Τίτλος:"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:140
+#: admin/views/pages/parts/slider-settings.php:76
+msgid "Slide"
+msgstr "Slide"
+
+#: inc/metaslider.widget.class.php:115
+msgid "Select Slider:"
+msgstr "Επιλογή Παρουσίασης (Slider):"
+
+#: inc/metaslider.widget.class.php:125 ml-slider.php:1940
+#: admin/assets/dist/js/app.js:2
+msgid "No slideshows found"
+msgstr "Δεν βρέθηκε καμία παρουσίαση"
+
+#: inc/slide/metaslide.image.class.php:390
+msgid "Image Slide"
+msgstr "Εικόνα Διαφάνειας (Slide)"
+
+#: admin/Pages.php:117
+msgid "URL"
+msgstr "URL"
+
+#: admin/Pages.php:119
+msgid "New Window"
+msgstr "Νέο Παράθυρο"
+
+#: inc/slide/metaslide.image.class.php:465
+msgid "Warning: The image data does not exist. Please re-upload the image."
+msgstr "Προειδοποίηση: Τα δεδομένα εικόνας δεν υπάρχουν. Παρακαλούμε, μεταφορτώστε ξανά την εικόνα."
+
+#: admin/views/slides/tabs/seo.php:7
+msgid "Image Title Text"
+msgstr "Κείμενο Τίτλου Εικόνας"
+
+#: admin/views/slides/tabs/seo.php:33
+msgid "Image Alt Text"
+msgstr "Εναλλακτικό Κείμενο Εικόνας"
+
+#: inc/slide/metaslide.image.class.php:478
+msgid "General"
+msgstr "Γενικά"
+
+#: inc/slide/metaslide.image.class.php:482
+msgid "SEO"
+msgstr "SEO"
+
+#: admin/views/slides/tabs/crop.php:6
+msgid "Crop Position"
+msgstr "Θέση Περικοπής"
+
+#: admin/views/slides/tabs/crop.php:10
+msgid "Top Left"
+msgstr "Επάνω Αριστερά"
+
+#: admin/views/slides/tabs/crop.php:11
+msgid "Top Center"
+msgstr "Επάνω Κέντρο"
+
+#: admin/views/slides/tabs/crop.php:12
+msgid "Top Right"
+msgstr "Επάνω Δεξιά"
+
+#: admin/views/slides/tabs/crop.php:13
+msgid "Center Left"
+msgstr "Κέντρο Αριστερά"
+
+#: admin/views/slides/tabs/crop.php:14
+msgid "Center Center"
+msgstr "Κέντρο Κέντρο"
+
+#: admin/views/slides/tabs/crop.php:15
+msgid "Center Right"
+msgstr "Κέντρο Δεξιά"
+
+#: inc/slide/metaslide.image.class.php:515
+msgid "Crop"
+msgstr "Περικοπή"
+
+#: ml-slider.php:2290
+msgid "Documentation"
+msgstr "Τεκμηρίωση"
+
+#: admin/Pages.php:128
+msgid "Select replacement image"
+msgstr "Επιλέξτε εικόνα αντικατάστασης"
+
+#: admin/Pages.php:138
+msgid "Caution: This setting is for advanced developers only. If you're unsure, leave it checked."
+msgstr "Προσοχή: Αυτή η ρύθμιση είναι για προχωρημένους χρήστες μόνο. Αν δεν είστε σίγουρος/η, αφήστε το επιλεγμένο."
+
+#: admin/views/pages/parts/toolbar.php:29
+msgid "Add Slide"
+msgstr "Προσθήκη Διαφάνειας (Slide)"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:32
+#: admin/views/pages/parts/slider-settings.php:36
+#: admin/assets/js/gutenberg/components/block-edit.js:57
+#: admin/assets/js/gutenberg/components/block-edit.js:82
+msgid "Slideshow width"
+msgstr "Πλάτος παρουσίασης"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:33
+#: admin/views/pages/parts/slider-settings-legacy.php:46
+#: admin/views/pages/parts/slider-settings-legacy.php:521
+#: admin/views/pages/parts/slider-settings.php:37
+#: admin/views/pages/parts/slider-settings.php:50
+#: admin/views/pages/parts/slider-settings.php:450
+msgid "px"
+msgstr "px"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:45
+#: admin/views/pages/parts/slider-settings.php:49
+msgid "Slideshow height"
+msgstr "Ύψος παρουσίασης"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:68
+#: admin/views/pages/parts/slider-settings-legacy.php:539
+#: admin/views/pages/parts/slider-settings.php:468
+msgid "Random"
+msgstr "Τυχαίο"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:72
+msgid "Swirl"
+msgstr "Swirl"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:76
+msgid "Rain"
+msgstr "Rain"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:80
+msgid "Straight"
+msgstr "Straight"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:88
+msgid "Slice Up"
+msgstr "Slice Up"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:108
+msgid "Fold"
+msgstr "Fold"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:104
+#: admin/views/pages/parts/slider-settings.php:72
+msgid "Fade"
+msgstr "Fade"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:120
+msgid "Box Random"
+msgstr "Box Random"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:124
+msgid "Box Rain"
+msgstr "Box Rain"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:128
+msgid "Box Rain Reverse"
+msgstr "Box Rain Reverse"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:136
+msgid "Box Rain Grow Reverse"
+msgstr "Box Rain Grow Reverse"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:147
+#: admin/views/pages/parts/slider-settings.php:83
+msgid "Arrows"
+msgstr "Βέλη"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:152
+#: admin/views/pages/parts/slider-settings.php:88
+msgid "Show the previous/next arrows"
+msgstr "Εμφανίστε τα βέλη προηγούμενο/επόμενο"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:166
+#: admin/views/pages/parts/slider-settings.php:102
+msgid "Navigation"
+msgstr "Πλοήγηση"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:169
+#: admin/views/pages/parts/slider-settings.php:105
+msgid "Show the slide navigation bullets"
+msgstr "Εμφανίστε τις κουκκίδες πλοήγησης διαφάνειας (slide)"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:175
+#: admin/views/pages/parts/slider-settings.php:111
+msgid "Hidden"
+msgstr "Κρυφό"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:178
+#: admin/views/pages/parts/slider-settings.php:114
+msgid "Dots"
+msgstr "Κουκκίδες"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:208
+#: admin/views/pages/parts/slider-settings.php:144
+msgid "Stretch the slideshow output to fill it's parent container"
+msgstr "Έκταση της παρουσίασης ώστε να γεμίζει όλο τον γονικό περιέκτη"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:386
+#: admin/views/pages/parts/slider-settings.php:315
+msgid "Center align"
+msgstr "Στοίχιση στο κέντρο"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:399
+#: admin/views/pages/parts/slider-settings.php:328
+msgid "Auto play"
+msgstr "Αυτόματη αναπαραγωγή"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:404
+#: admin/views/pages/parts/slider-settings.php:333
+msgid "Transition between slides automatically"
+msgstr "Αυτόματη μετάβαση μεταξύ των διαφανειών (slides)"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:425
+#: admin/views/pages/parts/slider-settings.php:354
+msgid "Image Crop"
+msgstr "Περικοπή Εικόνας"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:430
+#: admin/views/pages/parts/slider-settings.php:359
+msgid "Smart Crop"
+msgstr "Έξυπνη Περικοπή"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:437
+#: admin/views/pages/parts/slider-settings.php:366
+msgid "Standard"
+msgstr "Κανονική"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:444
+#: admin/views/pages/parts/slider-settings.php:373
+msgid "Disabled"
+msgstr "Απενεργοποιημένο"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:451
+#: admin/views/pages/parts/slider-settings.php:380
+msgid "Disabled (Smart Pad)"
+msgstr "Απενεργοποιημένο (Smart Pad)"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:458
+#: admin/views/pages/parts/slider-settings.php:387
+msgid "Smart Crop ensures your responsive slides are cropped to a ratio that results in a consistent slideshow size"
+msgstr "Η Έξυπνη Περικοπή εξασφαλίζει πως οι responsive διαφάνειες (slides) περικόπτονται σε μία αναλογία που έχει ως αποτέλεσμα ένα σταθερό μέγεθος παρουσίασης"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:479
+#: admin/views/pages/parts/slider-settings.php:408
+msgid "Carousel mode"
+msgstr "Λειτουργία carousel"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:514
+#: admin/views/pages/parts/slider-settings.php:443
+msgid "Carousel margin"
+msgstr "Περιθώριο carousel"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:517
+#: admin/views/pages/parts/slider-settings.php:446
+msgid "Pixel margin between slides in carousel."
+msgstr "Περιθώριο σε pixel μεταξύ των διαφανειών (slides) στο carousel."
+
+#: admin/views/pages/parts/slider-settings-legacy.php:544
+#: admin/views/pages/parts/slider-settings.php:473
+msgid "Randomise the order of the slides"
+msgstr "Τυχαιοποίηση της σειράς των διαφανειών (slides)"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:552
+#: admin/views/pages/parts/slider-settings.php:481
+msgid "Hover pause"
+msgstr "Παύση με το πέρασμα του ποντικιού"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:557
+#: admin/views/pages/parts/slider-settings.php:486
+msgid "Pause the slideshow when hovering over slider, then resume when no longer hovering."
+msgstr "Παύση της παρουσίασης όταν περνάτε το ποντίκι πάνω από την παρουσίαση (slider), έπειτα επανέναρξη όταν δεν περνάτε άλλο το ποντίκι από πάνω."
+
+#: admin/views/pages/parts/slider-settings-legacy.php:565
+#: admin/views/pages/parts/slider-settings.php:494
+msgid "Reverse"
+msgstr "Αντιστροφή"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:570
+#: admin/views/pages/parts/slider-settings.php:499
+msgid "Reverse the animation direction"
+msgstr "Αντιστροφή της κατεύθυνσης κίνησης"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:609
+#: admin/views/pages/parts/slider-settings.php:538
+msgid "Slide delay"
+msgstr "Καθυστέρηση διαφάνειας (slide)"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:611
+#: admin/views/pages/parts/slider-settings.php:540
+msgid "How long to display each slide, in milliseconds"
+msgstr "Ο χρόνος εμφάνισης κάθε διαφάνειας (slide), σε milliseconds"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:649
+#: admin/views/pages/parts/slider-settings-legacy.php:651
+msgid "Number of slices"
+msgstr "Αριθμός κομματιών"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:661
+#: admin/views/pages/parts/slider-settings-legacy.php:666
+#: admin/views/pages/parts/slider-settings-legacy.php:677
+#: admin/views/pages/parts/slider-settings-legacy.php:682
+msgid "Number of squares"
+msgstr "Αριθμός τετραγώνων"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:688
+#: admin/views/pages/parts/slider-settings.php:573
+msgid "Slide direction"
+msgstr "Κατεύθυνση διαφάνειας (slide)"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:697
+#: admin/views/pages/parts/slider-settings.php:582
+msgid "Horizontal"
+msgstr "Οριζόντια"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:704
+#: admin/views/pages/parts/slider-settings.php:589
+msgid "Vertical"
+msgstr "Κάθετη"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:715
+#: admin/views/pages/parts/slider-settings.php:600
+msgid "Easing"
+msgstr "Μετακίνηση"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:727
+msgid "Previous text"
+msgstr "Κείμενο προηγούμενου"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:729
+msgid "Set the text for the 'previous' direction item"
+msgstr "Ορίστε το κείμενο για το στοιχείο κατεύθυνσης 'προηγούμενο'"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:740
+msgid "Next text"
+msgstr "Κείμενο επόμενου"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:742
+msgid "Set the text for the 'next' direction item"
+msgstr "Ορίστε το κείμενο για το στοιχείο κατεύθυνσης 'επόμενο'"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:758
+msgid "Square delay"
+msgstr "Καθυστέρηση τετραγώνων"
+
+#: admin/views/pages/parts/slider-settings-legacy.php:760
+msgid "Delay between squares in ms"
+msgstr "Η καθυστέρηση μεταξύ των τετραγώνων σε ms"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: ml-slider.php ml-slider.php:502
+msgid "MetaSlider"
+msgstr "MetaSlider"
+
+#: admin/views/pages/parts/toolbar.php:60
+msgid "Add a new slideshow"
+msgstr "Προσθήκη νέου slideshow"
