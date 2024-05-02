@@ -1,0 +1,28 @@
+# Translation of Plugins - Accessibility by UserWay - Development (trunk) in Greek
+# This file is distributed under the same license as the Plugins - Accessibility by UserWay - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-04-16 15:20:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0\n"
+"Language: el_GR\n"
+"Project-Id-Version: Plugins - Accessibility by UserWay - Development (trunk)\n"
+
+#. Plugin Name of the plugin
+#: userway.php
+msgid "Accessibility by UserWay"
+msgstr "Accessibility by UserWay"
+
+#. Author of the plugin
+#: userway.php
+msgid "UserWay.org"
+msgstr "UserWay.org"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: userway.php
+msgid "https://userway.org"
+msgstr "https://userway.org"

@@ -1,0 +1,2 @@
+<?php
+return ['x-generator'=>'GlotPress/4.0.0','translation-revision-date'=>'2021-04-16 15:20:36+0000','plural-forms'=>'nplurals=2; plural=n != 1;','project-id-version'=>'Plugins - Accessibility by UserWay - Development (trunk)','language'=>'el_GR','messages'=>['Accessibility by UserWay'=>'Accessibility by UserWay','UserWay.org'=>'UserWay.org','https://userway.org'=>'https://userway.org']];
