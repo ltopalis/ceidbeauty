@@ -1,0 +1,23 @@
+2026-05-06T15:06:15+00:00 NOTICE plugin_updater :: Updating database from version 4.0.2 to 6.1 :: Array
+(
+    [updated_db] => 1
+)
+2026-05-06T15:06:15+00:00 NOTICE plugin_updater :: update_db_check read options blob :: Array
+(
+    [row_present] => 1
+    [option_keys] => Array
+        (
+            [0] => mailchimp_permission_cap
+            [1] => woocommerce_settings_save_general
+            [2] => store_currency_code
+        )
+
+    [has_api_key] => 
+    [has_permission_cap] => 1
+    [auth_from] => 
+)
+2026-05-06T15:06:15+00:00 NOTICE plugin_updater :: update_db_check skipped permission_cap write :: Array
+(
+    [reason] => no_api_key_in_blob
+)
+2026-05-06T15:06:15+00:00 NOTICE webhooks :: Ran plugin updater from version 4.0.2 to 6.1
